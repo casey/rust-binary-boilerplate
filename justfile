@@ -74,7 +74,7 @@ install-dev-dependencies:
 	cargo install rustfmt
 	cargo install cargo-check
 	cargo install cargo-watch
-	rustup run nightly install clippy
+	rustup run nightly cargo install clippy
 
 update-dev-dependencies:
 	rustup update stable
